@@ -8,6 +8,9 @@
 body{
     background-color: lightblue;
 }
+h1, h2{
+    text-align: center;
+}
 a{
     text-decoration: none;
     color: black;
@@ -34,7 +37,19 @@ nav{
 
 
 
-
+/* section 1 */
 #section1{
     padding-top: 100px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#section1 p{
+    padding: 10px 20px;
+}
+
+/* section 2 */
+#section2{
+    padding-top: 50px; 
 }
