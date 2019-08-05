@@ -52,4 +52,6 @@ nav{
 /* section 2 */
 #section2{
     padding-top: 50px; 
+    background-color: lightslategray;
+    display: flex;
 }
