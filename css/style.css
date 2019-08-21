@@ -49,6 +49,23 @@ nav{
 #section1 p{
     padding: 10px 20px;
 }
+#section1-left-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottomArticle{
+    background-color: lightgrey;
+    /* padding-left: 20px; */
+}
+
+
+
+
+
+
+
+
 
 /* section 2 */
 #section2{
