@@ -53,7 +53,7 @@ nav{
 
 .article1{
     width: 400px;
-    height: 400px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +103,17 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-/* #section2-left-div{
-    display: flex;
-    align-items: center;
+.sec2{
+    height: 150px;
+    background-color: lightseagreen;
+    width: 33%;
+    padding: 0 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+/* .sec2:hover{
+    overflow: hidden;
 } */
+.sec2::-webkit-scrollbar {
+    display: none;
+}
