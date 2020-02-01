@@ -24,10 +24,11 @@ a:hover{
 }
 nav{
     background-color: skyblue;
+    opacity: 0.5;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 10vh;
     position: fixed;
     width: 100%;
 }
@@ -43,30 +44,39 @@ nav{
 
 /* section 1 */
 #section1{
-    padding-top: 100px;
-    height: 600px;
-    /* background-color: lightgrey; */
+    padding-top: 10vh;
+    height: 90vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 };
 
-.article1{
-    width: 400px;
-    height: 200px;
+/* this is weird, when i comment .article1 the code messes up,
+but when i comment all the stuff inside then it works fine.
+even when i switch the postions 
+of : .article1 and #section1-left-div, then the one thats at the 
+top doesnt get read. */
+/* .article1{
+    background-color: lightgreen;
+    width: 30vw;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
- }
-.sec1-left-img{
+} */
+
+
+/* .sec1-left-img{
     height: 200px;
-    width: 200px;
-}
+    width: 30vw;
+} */
+
 #section1-left-div{
     /* background-color: lightgreen; */
-    width: 45%;
+    width: 45vw;
+    height: 65vh;
     border: 1px solid skyblue;
     border-radius: 10px;
     display: flex;
@@ -74,8 +84,12 @@ nav{
     flex-direction: column;
     align-items: center;
 }
+
+
+
 .article-p-info{
-    width: 250px;
+    width: 35vw;
+    overflow: hidden;
 }
 #section1-right-div{
     background-color: pink;
@@ -96,8 +110,7 @@ nav{
 
 /* section 2 */
 #section2{
-    padding-top: 50px; 
-    height: 500px;
+    height: 90vh;
     background-color: lightslategray;
     display: flex;
     justify-content: space-between;
