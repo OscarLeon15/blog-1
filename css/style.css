@@ -101,10 +101,11 @@ top doesnt get read. */
 .article-p-info{
     overflow: hidden;
 }
+/* right */
 #section1-right-div{
-    background-color: pink;
-    width: 45%;
-    height: 400px;
+    /* background-color: pink; */
+    width: 45vw;
+    height: 65vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
