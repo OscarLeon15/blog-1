@@ -111,6 +111,9 @@ top doesnt get read. */
     flex-direction: column;
     align-items: center;
 }
+.button-start-test{
+    border-radius: 12px;
+}
 
 
 
