@@ -48,13 +48,16 @@ nav{
 
 /* section 1 */
 #section1{
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
+    background-image: url("../images/tree-in-woods.jpg");
+    background-size: cover;
+    opacity: 0.5;
     padding-top: 10vh;
     height: 90vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-};
+}
 
 /* this is weird, when i comment .article1 the code messes up,
 but when i comment all the stuff inside then it works fine.
@@ -82,7 +85,7 @@ top doesnt get read. */
     /* background-color: lightgreen; */
     width: 45vw;
     height: 65vh;
-    border: 1px solid skyblue;
+    /* border: 1px solid skyblue; */
     border-radius: 10px;
     display: flex;
     justify-content: center;
