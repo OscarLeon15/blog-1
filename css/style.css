@@ -23,8 +23,8 @@ a:hover{
     color: green;
 }
 nav{
-    background-color: skyblue;
-    opacity: 0.5;
+    background-color: grey;
+    opacity: 0.8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +51,7 @@ nav{
     /* background-color: lightgrey; */
     background-image: url("../images/tree-in-woods.jpg");
     background-size: cover;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     padding-top: 10vh;
     height: 90vh;
     display: flex;
@@ -82,9 +82,10 @@ top doesnt get read. */
 } */
 
 #section1-left-div{
-    /* background-color: lightgreen; */
+    background-color: grey;
     width: 45vw;
     height: 65vh;
+    /* opacity: 0.5; */
     /* border: 1px solid skyblue; */
     border-radius: 10px;
     display: flex;
@@ -106,7 +107,8 @@ top doesnt get read. */
 }
 /* right */
 #section1-right-div{
-    /* background-color: pink; */
+    background-color: grey;
+    border-radius: 10px;
     width: 45vw;
     height: 65vh;
     display: flex;
@@ -128,22 +130,57 @@ top doesnt get read. */
 /* section 2 */
 #section2{
     height: 90vh;
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .sec2{
-    height: 150px;
-    background-color: lightseagreen;
-    width: 33%;
-    padding: 0 20px;
+    height: 35vh;
+    width: 30vw;
+    background-color: lightgrey;
+    margin: 0 20px;
+    border-radius: 12px;
     overflow: hidden;
     overflow-y: scroll;
+}
+.sec2 p{
+    margin: auto 15px;
 }
 /* .sec2:hover{
     overflow: hidden;
 } */
 .sec2::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+/* section 3 */
+#section3{
+    height: 90vh;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec3{
+    height: 35vh;
+    width: 30vw;
+    background-color: lightgrey;
+    margin: 0 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.sec3 p{
+    margin: auto 15px;
+}
+/* .sec2:hover{
+    overflow: hidden;
+} */
+.sec3::-webkit-scrollbar {
     display: none;
 }
