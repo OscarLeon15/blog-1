@@ -117,9 +117,15 @@ top doesnt get read. */
     align-items: center;
 }
 .button-start-test{
+    width: 20vw;
+    background-color: lightgrey;
+    border: 2px solid darkgrey;
     border-radius: 12px;
 }
 
+.button-start-test:hover{
+    background-color: darkgrey;
+}
 
 
 
