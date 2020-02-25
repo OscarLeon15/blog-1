@@ -45,13 +45,23 @@ nav{
 }
 
 
-
-/* section 1 */
-#section1{
-    /* background-color: lightgrey; */
+.bgimg{
     background-image: url("../images/tree-in-woods.jpg");
     background-size: cover;
-    /* opacity: 0.5; */
+    /* background-attachment: fixed;
+    background-position: center top; */
+    position: relative;
+    opacity: 0.8;
+    padding-top: 10vh;
+    height: 90vh;
+}
+/* section 1 */
+#section1{
+    background-color: lightgrey;
+    /* background-image: url("../images/tree-in-woods.jpg");
+    background-size: cover;
+    opacity: 0.5; */
+    
     padding-top: 10vh;
     height: 90vh;
     display: flex;
@@ -107,7 +117,8 @@ top doesnt get read. */
 }
 /* right */
 #section1-right-div{
-    background-color: grey;
+    background-color: rgb(128, 128, 128, 0.5);
+    
     border-radius: 10px;
     width: 45vw;
     height: 65vh;
